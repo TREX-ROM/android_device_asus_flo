@@ -42,6 +42,10 @@ USE_O3 := true
 STRICT := true
 GRAPHITE := true
 LTO := true
+TARGET_ENABLE_UKM := true
+
+# Changelog
+LIQUID_CHANGELOG := true
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
