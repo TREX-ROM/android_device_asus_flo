@@ -199,6 +199,9 @@ on post-fs-data
     chown system system /sys/class/leds/white/device/grpfreq
     chown system system /sys/class/leds/white/device/grppwm
     chown system system /sys/class/leds/white/device/blink
+    
+    # MDSS PCC RGB colour adjust interface
+    chown system system /sys/devices/virtual/graphics/fb0/rgb    
 
     # communicate with mpdecision and thermald
     mkdir /dev/socket/mpdecision 2770 root system
