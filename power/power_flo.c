@@ -274,3 +274,9 @@ struct power_module HAL_MODULE_INFO_SYM = {
         .author = "Gabriele M",
         .methods = &power_module_methods,
     },
+
+    .init = power_init,
+    .setInteractive = power_set_interactive,
+    .powerHint = power_hint,
+    .getFeature = get_feature
+};
